@@ -2,7 +2,7 @@ class CompanyInfo {
 	constructor(parent, symbol) {
 		this.parent = parent;
 		this.symbol = symbol;
-		this.print();
+		
 	}
 	print() {
 		console.log("parent:");
@@ -125,9 +125,6 @@ class Companycontent {
 	}
 
 	async getStockInfo() {
-		console.log("this.Symbol");
-		console.log(this.symbol);
-
 		let urlSymbolInfo = `https://financialmodelingprep.com/api/v3/company/profile/${this.symbol}`;
 		await fetch(urlSymbolInfo)
 			.then(response => {
