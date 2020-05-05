@@ -1,0 +1,18 @@
+
+
+#CompInfo{
+    display:flex !important; 
+    justify-content: space-evenly;
+
+}
+#fragment{
+    width:33%;
+}
+#symbolprice{
+height: auto!important; 
+margin-top: 12px;
+}
+
+#details{
+    display: block;
+}

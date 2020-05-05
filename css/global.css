@@ -1,0 +1,16 @@
+.changesPercentage {
+	margin-left: auto;
+	font-size:14px;
+  }
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.test{
+	display:none;
+}

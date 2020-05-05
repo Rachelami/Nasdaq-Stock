@@ -1,0 +1,111 @@
+* {
+	font-family: "Open Sans", sans-serif;
+}
+
+body {
+	padding: 10px;
+}
+
+#header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 6px double rgb(218, 232, 233);
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+#symboldescription {
+	display: flex;
+	align-items: center;
+}
+
+#symbollink {
+	padding: 12px;
+	height: 40%;
+	width: 100%;
+}
+
+#symbolprice {
+	justify-content: center;
+	align-items: center;
+	height: 40%;
+	width: 90%;
+	background-color: rgb(224, 235, 231);
+	border-radius: 15px;
+	display: flex;
+	padding: 10px;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.image {
+	margin-right: 12px;
+	width: 60px;
+}
+
+.name {
+	font-size: 30px;
+	font-weight: bold;
+	-webkit-text-fill-color: white;
+	-webkit-animation: fill 0.9s infinite alternate;
+}
+
+.description {
+	width: 100%;
+	background-color: rgb(229, 253, 245);
+	padding: 20px;
+	border-radius: 30px;
+}
+
+.link {
+	padding: 10px;
+	color: blue;
+	background-color: rgb(235, 231, 231);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+}
+
+.price {
+	justify-content: center;
+}
+
+#myChart {
+	margin-top: 50px;
+	/* height: 30vh; */
+}
+
+canvas {
+	height: 30vh;
+	width: 30vw;
+}
+
+#loader {
+	margin-left: 49%;
+}
+
+.none {
+	display: none;
+}
+
+@import "compass/css3";
+
+@-webkit-keyframes fill {
+	from {
+		-webkit-text-fill-color: rgb(28, 142, 196);
+	}
+	to {
+		-webkit-text-fill-color: rgb(0, 0, 0);
+	}
+}
